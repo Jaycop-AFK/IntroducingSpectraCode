@@ -1,13 +1,12 @@
 import { Box } from "@mui/material";
-import React from "react";
 import Marquee from "react-fast-marquee";
 import { languageImages } from "../../../data/Slidedata/languageImages.data";
 import { FrameworkImage } from "../../../data/Slidedata/FrameworkImages.data";
 import { ToolsImages } from "../../../data/Slidedata/ToolImages.data";
 
-type Props = {};
 
-const ToolsAndLanguage = (props: Props) => {
+
+const ToolsAndLanguage = () => {
   return (
     <Box
       sx={{

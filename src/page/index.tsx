@@ -1,5 +1,5 @@
-import { Box, Grid } from "@mui/material";
-import React from "react";
+import {  Grid } from "@mui/material";
+
 import Navbar from "../components/Header/Navbar";
 import BackgroundSection from "../components/Body/BackgroundSection";
 import CoreOffering from "../components/Body/CoreOfferings";
@@ -10,9 +10,9 @@ import Projects from "../components/Body/Projects";
 import ContactForm from "../components/Body/ContactUs";
 import Footer from "../components/Footer";
 
-type Props = {};
 
-const HomePage = (props: Props) => {
+
+const HomePage = () => {
   return (
     <>
       <Grid

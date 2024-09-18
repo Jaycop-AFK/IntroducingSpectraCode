@@ -49,9 +49,9 @@ type CardItem = {
   imageUrl: string;
 };
 
-type Props = {};
 
-const Projects = (props: Props) => {
+
+const Projects = () => {
   const [open, setOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState<CardItem | null>(null);
 

@@ -1,10 +1,10 @@
 import { Box, Grid, Typography } from "@mui/material";
-import React from "react";
+
 import { motion } from "framer-motion";
 
-type Props = {};
 
-const StepProcess = (props: Props) => {
+
+const StepProcess = () => {
   const steps = [
     {
       number: 1,

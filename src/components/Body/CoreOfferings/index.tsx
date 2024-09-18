@@ -1,11 +1,10 @@
 import { Box, Grid, Typography } from "@mui/material";
-import React from "react";
 import { offeringsData } from "../../../data/Offering.data";
 import { motion } from "framer-motion";
 
-type Props = {};
 
-const CoreOffering = ( Props:Props) => {
+
+const CoreOffering = () => {
     return (
       <Box
         sx={{
