@@ -1,5 +1,6 @@
 import { Box, Button, Typography } from '@mui/material';
-import Background from '../../../assets/background.png'; 
+import Background from '../../../assets/background.png';
+
 import { motion } from 'framer-motion';
 
 const BackgroundSection = () => {
