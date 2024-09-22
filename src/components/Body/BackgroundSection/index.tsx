@@ -1,5 +1,5 @@
 import { Box, Button, Typography } from '@mui/material';
-import Background from '../../../assets/background.png';
+import Background from "../../../assets/bg.jpg"
 
 import { motion } from 'framer-motion';
 
